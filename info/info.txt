@@ -1,0 +1,14 @@
+﻿Command-Line parsing rules:
+	Whitespace delimiters:
+		Arguments are separated by spaces or tabs.
+	Quoting:
+		Double quotes (") are used to include spaces or special characters within a single argument.
+		Example: "file name.txt" is treated as one argument.
+	Escaping quotes:
+		A backslash (\) preceding a quote (") escapes the quote.
+		Example: \" is treated as a literal quote.
+	Backslashes:
+		Backslashes are treated as literal characters unless followed by a quote (").
+		The number of consecutive backslashes affects parsing:
+			Even number: Escapes half the backslashes, treating the remaining as literal.
+			Odd number: Escapes half the backslashes and the quote.
