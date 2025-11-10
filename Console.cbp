@@ -149,8 +149,6 @@
 		<Unit filename="../Utilities/Console.h" />
 		<Unit filename="../Utilities/Exception.cpp" />
 		<Unit filename="../Utilities/Exception.h" />
-		<Unit filename="../Utilities/GetPathToFile.cpp" />
-		<Unit filename="../Utilities/GetPathToFile.h" />
 		<Unit filename="../Utilities/Lambda.cpp" />
 		<Unit filename="../Utilities/Lambda.h" />
 		<Unit filename="../Utilities/Thread.cpp" />
