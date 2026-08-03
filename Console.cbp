@@ -42,8 +42,8 @@
 					<Add option="-fno-sanitize-recover=undefined" />
 					<Add option="-fsanitize-undefined-trap-on-error" />
 					<Add option="-ggdb" />
-					<Add option="-DWINVER=0x410" />
-					<Add option="-D_WIN32_WINNT=0x0501" />
+					<Add option="-DWINVER=0x601" />
+					<Add option="-D_WIN32_WINNT=0x601" />
 					<Add option="-DMEMORY_MANAGEMENT=1" />
 					<Add option="-D_UNICODE" />
 					<Add option="-DUNICODE" />
@@ -65,8 +65,8 @@
 					<Add option="-Wl,-Map=Debug\bin\main.map" />
 					<Add library="Msimg32" />
 					<Add library="comdlg32" />
-					<Add library="comctl32" />
 					<Add library="shlwapi" />
+					<Add library="dwmapi" />
 					<Add library="gdi32" />
 				</Linker>
 			</Target>
@@ -103,8 +103,8 @@
 					<Add option="-ftemplate-backtrace-limit=0" />
 					<Add option="-finput-charset=UTF-8" />
 					<Add option="-fexec-charset=UTF-8" />
-					<Add option="-DWINVER=0x410" />
-					<Add option="-D_WIN32_WINNT=0x0501" />
+					<Add option="-DWINVER=0x601" />
+					<Add option="-D_WIN32_WINNT=0x601" />
 					<Add option="-DMEMORY_MANAGEMENT=1" />
 					<Add option="-D_UNICODE" />
 					<Add option="-DUNICODE" />
@@ -123,8 +123,8 @@
 					<Add option="-fexceptions" />
 					<Add library="Msimg32" />
 					<Add library="comdlg32" />
-					<Add library="comctl32" />
 					<Add library="shlwapi" />
+					<Add library="dwmapi" />
 					<Add library="gdi32" />
 				</Linker>
 			</Target>
