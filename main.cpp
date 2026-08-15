@@ -1,21 +1,25 @@
+#include "CommandLineArguments.h"
 #include "Exception.h"
 #include "Console.h"
 #include "Window.h"
 
+#include "RandomNumber.h"
+
 #include <string>
 #include <vector>
 
-int wmain( int argc, wchar_t *argv[] );
+#include <stack>
 
-int wmain( int argc, wchar_t *argv[] )
+int main()
 {
     try
     {
         Console console;
 
-        // Argument #0 is a path to this app, it seems to be relative.
-        for( int i = 1; i < argc; ++i )
-            console.command( argv[i] );
+        // Argument #0 is a path to this application.
+        auto arguments = commandLineArguments();
+        for( size_t i = 1; i < arguments.size(); ++i )
+            console.command( arguments[i] );
 
         console.run();
     }

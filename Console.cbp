@@ -57,7 +57,6 @@
 					<Add option="-static-libgcc" />
 					<Add option="-static" />
 					<Add option="-m64" />
-					<Add option="-municode" />
 					<Add option="-fexceptions" />
 					<Add option="-fsanitize=undefined" />
 					<Add option="-fno-sanitize-recover=undefined" />
@@ -119,7 +118,6 @@
 					<Add option="-static-libgcc" />
 					<Add option="-static" />
 					<Add option="-m64" />
-					<Add option="-municode" />
 					<Add option="-fexceptions" />
 					<Add library="Msimg32" />
 					<Add library="comdlg32" />
@@ -141,16 +139,24 @@
 			<Add library="gdi32" />
 			<Add library="comdlg32" />
 		</Linker>
+		<Unit filename="../Utilities/ArrayRLE.cpp" />
+		<Unit filename="../Utilities/ArrayRLE.h" />
 		<Unit filename="../Utilities/Basic.cpp" />
 		<Unit filename="../Utilities/Basic.h" />
+		<Unit filename="../Utilities/CommandLineArguments.cpp" />
+		<Unit filename="../Utilities/CommandLineArguments.h" />
 		<Unit filename="../Utilities/Connect.cpp" />
 		<Unit filename="../Utilities/Connect.h" />
 		<Unit filename="../Utilities/Console.cpp" />
 		<Unit filename="../Utilities/Console.h" />
 		<Unit filename="../Utilities/Exception.cpp" />
 		<Unit filename="../Utilities/Exception.h" />
+		<Unit filename="../Utilities/GetTime.cpp" />
+		<Unit filename="../Utilities/GetTime.h" />
 		<Unit filename="../Utilities/Lambda.cpp" />
 		<Unit filename="../Utilities/Lambda.h" />
+		<Unit filename="../Utilities/RandomNumber.cpp" />
+		<Unit filename="../Utilities/RandomNumber.h" />
 		<Unit filename="../Utilities/Thread.cpp" />
 		<Unit filename="../Utilities/Thread.h" />
 		<Unit filename="../Utilities/UnicodeString.cpp" />
